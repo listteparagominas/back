@@ -22,6 +22,10 @@ class App{
     routes(){
         this.server.use(routes);
     }
+
+    carro(){
+        
+    }
 }
 
 export default new App().server;
